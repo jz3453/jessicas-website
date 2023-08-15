@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { createRoot } from "react-dom/client";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
