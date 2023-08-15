@@ -25,6 +25,10 @@ function Navbar() {
             <FontAwesomeIcon icon="fa-solid fa-star" size="sm" />
             <span>About</span>
           </Link>
+          <Link to={'/courses'}>
+            <FontAwesomeIcon icon="fa-solid fa-star" size="sm" />
+            <span>Courses</span>
+          </Link>
         </div>
       </IconContext.Provider>
     </nav>

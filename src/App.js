@@ -7,6 +7,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import Navbar from './components/navigation/Navbar';
 import About from './components/routes/about/About';
+import Courses from './components/routes/courses/Courses';
 
 export const DisplayContext = React.createContext();
 
@@ -19,6 +20,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<About />} />
+          <Route path="/courses" element={<Courses />} />
         </Routes>
       </DisplayContext.Provider>
     </div>
