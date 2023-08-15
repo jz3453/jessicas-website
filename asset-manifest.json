@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/jessicas-website/static/css/main.81119b14.css",
-    "main.js": "/jessicas-website/static/js/main.e08a8070.js",
+    "main.css": "/jessicas-website/static/css/main.b8dc5146.css",
+    "main.js": "/jessicas-website/static/js/main.c85df30a.js",
     "static/media/profile.png": "/jessicas-website/static/media/profile.bbb9ce48d0a02987f4b7.png",
+    "static/media/bats.png": "/jessicas-website/static/media/bats.d36f05fe3b1dbe66faa8.png",
+    "static/media/auctane.jpeg": "/jessicas-website/static/media/auctane.20ac80f83eb8930e6497.jpeg",
     "index.html": "/jessicas-website/index.html",
-    "main.81119b14.css.map": "/jessicas-website/static/css/main.81119b14.css.map",
-    "main.e08a8070.js.map": "/jessicas-website/static/js/main.e08a8070.js.map"
+    "main.b8dc5146.css.map": "/jessicas-website/static/css/main.b8dc5146.css.map",
+    "main.c85df30a.js.map": "/jessicas-website/static/js/main.c85df30a.js.map"
   },
   "entrypoints": [
-    "static/css/main.81119b14.css",
-    "static/js/main.e08a8070.js"
+    "static/css/main.b8dc5146.css",
+    "static/js/main.c85df30a.js"
   ]
 }
