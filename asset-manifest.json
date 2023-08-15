@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/jessicas-website/static/css/main.98a208e0.css",
-    "main.js": "/jessicas-website/static/js/main.9c3f5e50.js",
+    "main.css": "/jessicas-website/static/css/main.81119b14.css",
+    "main.js": "/jessicas-website/static/js/main.e08a8070.js",
+    "static/media/profile.png": "/jessicas-website/static/media/profile.bbb9ce48d0a02987f4b7.png",
     "index.html": "/jessicas-website/index.html",
-    "main.98a208e0.css.map": "/jessicas-website/static/css/main.98a208e0.css.map",
-    "main.9c3f5e50.js.map": "/jessicas-website/static/js/main.9c3f5e50.js.map"
+    "main.81119b14.css.map": "/jessicas-website/static/css/main.81119b14.css.map",
+    "main.e08a8070.js.map": "/jessicas-website/static/js/main.e08a8070.js.map"
   },
   "entrypoints": [
-    "static/css/main.98a208e0.css",
-    "static/js/main.9c3f5e50.js"
+    "static/css/main.81119b14.css",
+    "static/js/main.e08a8070.js"
   ]
 }
