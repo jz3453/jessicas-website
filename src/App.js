@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react';
-import './App.css';
 import { Routes, Route, HashRouter } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -28,3 +27,4 @@ function App() {
 }
 
 export default App;
+library.add(fab, fas, far)
