@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { DisplayContext } from '../../../App';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconButton, Tooltip } from '@mui/material';
+import { IconButton } from '@mui/material';
 import { Navigation, Pagination, Mousewheel} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -161,7 +161,7 @@ function About() {
             Hobbies & Interests
           </div>
           <div className='page-text'>
-            School, extracurriculars, and work take up a lot of my time, but I still <i>try</i> to make time to do things I like.<Tooltip title='what a CSS nightmare this was'>Here are a few!</Tooltip>
+            School, extracurriculars, and work take up a lot of my time, but I still <i>try</i> to make time to do things I like.
           </div>
           <br />
           {CardSlider()}
