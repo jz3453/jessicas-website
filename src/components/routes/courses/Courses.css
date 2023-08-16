@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+.courses-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.semester-section {
+    background-color: #fcfbff;
+}
+
+.course-list {
+    padding-top: 0px !important;
+    background-color: #fcfbff !important;
+}
+
+.semester-title {
+    font-size: 20px;
+    color: #6c64d1;
+    font-weight: 600;
+}
+
+.course {
+    margin: 0px 10px 10px 0px;
+}
+
+.course-name {
+    font-size: 16px;
+    color: #6c6b80;
+    word-wrap: break-word;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.course-description {
+    display: flex;
+}
+
+.course-subtext {
+    font-size: 14px;
+    color: #a2a1c0;
+    font-family: "Poppins", sans-serif !important;
+    margin-right: 15px;
+}
+
+.course-subtext.highlight {
+    color: #8180c3;
+}
+
+.honors {
+    font-size: 16px;
+    color: #6c64d1;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
