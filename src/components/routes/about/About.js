@@ -15,6 +15,8 @@ import { hobbies } from '../../constants/Hobbies';
 import { highlights } from '../../constants/Highlights';
 
 const HighlightsReel = () => {
+  const { narrowDisplay, setNarrowDisplay } = useContext(DisplayContext);
+
   return (
     <div className='highlights-container'>
       <Swiper
@@ -26,12 +28,12 @@ const HighlightsReel = () => {
           clickable: true,
         }}
         modules={[Mousewheel, Pagination]}
-        className="swiper-reel"
+        className={narrowDisplay ? "swiper-reel narrow" : "swiper-reel"}
       >
         {
           highlights.map((highlight) => (
             <SwiperSlide key={highlight.id}>
-              <div className='reel-slide'>
+              <div className={narrowDisplay ? "reel-slide narrow" : 'reel-slide'}>
                 {highlight.image}
                 <div className='reel-slide-text'>
                   <div className='reel-slide-title'>

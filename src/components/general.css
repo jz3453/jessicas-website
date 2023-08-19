@@ -6,8 +6,8 @@
 
 .page-full {
     display: flex;
-    height: 90vh;
-    padding: 25px;
+    min-height: 90vh;
+    padding: 35px 25px 25px 25px;
     /* justify-content: center; */
     background-color: #f1f0f5;
     color: #000000;
