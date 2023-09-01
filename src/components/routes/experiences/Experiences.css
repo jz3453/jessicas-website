@@ -33,14 +33,14 @@
   margin-top: 10px;
 }
 
-.card-title {
+.card-title-job {
   font-size: 18px;
   font-weight: 600;
   color: #6c6b80;
   margin-bottom: 0;
 }
 
-.card-title.flip {
+.card-title-job.flip {
   color: #6c64d1;
   margin-bottom: 5px;
 }

@@ -15,7 +15,7 @@ const Flashcard = ({ job }) => {
         !flip ? (
           <div className='front'>
             <div className='card-header'>
-              <div className='card-title'>
+              <div className='card-title-job'>
                 {job.company}
               </div>
               <div className='card-date'>
@@ -43,7 +43,7 @@ const Flashcard = ({ job }) => {
         ) : (
           <div className='back'>
             <div className='card-header'>
-              <div className='card-title flip'>
+              <div className='card-title-job flip'>
                 What I Learned & Takeaways
               </div>
             </div>
