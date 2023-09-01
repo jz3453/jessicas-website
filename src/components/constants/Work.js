@@ -32,6 +32,9 @@ export const work = [
       <div>
         <b>Effective Communication</b>: Working with support agents honed my ability to communicate complex technical concepts in a clear and understandable manner. It also taught me the importance of active listening, gathering feedback, and fostering an open dialogue with stakeholders.
       </div>,
+      <div>
+        <b>Git Profiency</b>: In adopting ShipStation's organized development process, I became adept at using Git to manage code repositories, track changes, and collaborate effectively with team members.
+      </div>,
     ]
   },
   {
@@ -56,5 +59,63 @@ export const work = [
       </div>,
     ]
   },
-  
+  {
+    id: 3,
+    company: <div>Smart Data Net Inc</div>,
+    position: 'Software Engineer Intern',
+    date: 'Jan 2023 – April 2023',
+    bullets: [
+      <div>
+        Led the development of a serverless web application using React and third-party libraries as part of an evolving project at Smart Data Net Inc.
+      </div>,
+      <div>
+        Communicated with a cross-functional team to understand company needs and user requirements, resulting in a tailored solution.
+      </div>,
+      <div>
+        Strategically planned for future integration of the web application with a <b>RESTful API</b>, utilizing AWS services including <b>AWS API Gateway</b>, <b>AWS Lambda</b>, and <b>DynamoDB</b>. Ensured scalability and efficient handling of user requests as the project progresses.
+      </div>,
+    ],
+    takeaways: [
+      <div>
+        <b>First time coding with React!!!</b>
+      </div>,
+      <div>
+        <b>Effective Questioning and Communication</b>: Throughout the development process, I honed the skill of asking questions in a productive and precise manner. This was instrumental in fostering open dialogue within the team, ensuring that we addressed challenges efficiently and make informed decisions.
+      </div>,
+      <div>
+        <b>Resourceful Problem-Solving</b>: I proactively sought solutions by meticulously reading and applying library documentations. Additionally, I spent significant time on platforms like Stack Overflow and AWS question boards, leveraging the wealth of collective knowledge in these online communities to overcome technical challenges and make informed decisions.
+      </div>
+    ]
+  },
+  {
+    id: 4,
+    company: <div>Columbia CS Department</div>,
+    position: 'Data Structures Teaching Assistant',
+    date: 'Aug 2022 – ',
+    bullets: [
+      <div>
+        Conducted regular meetings with instructors to discuss course progress and address student concerns.
+      </div>,
+      <div>
+        Provided one-on-one tutoring and held office hours to clarify course concepts, debug code, and offer additional support to struggling students.
+      </div>,
+      <div>
+        Created supplementary learning resources, such as coding examples, documentation, and study guides, to aid students in their coursework.
+      </div>,
+      <div>
+        Maintained effective communication channels with professors, students, and fellow teaching assistants to ensure a smooth learning experience.
+      </div>,
+    ],
+    takeaways: [
+      <div>
+        <b>Adaptive Teaching Approach</b>: As a teaching assistant for Data Structures, I learned the importance of tailoring my teaching approach to meet the diverse needs of students. I discovered that not everyone learns in the same way, so I adapted my explanations to present complex concepts from multiple angles.
+      </div>,
+      <div>
+        <b>Balancing Support and Encouragement</b>: One of the key lessons I gained from this experience was how to strike the right balance between providing assistance and encouraging independent thinking. I recognized that it's essential to offer guidance and support while also empowering students to explore and solve problems on their own. 
+      </div>,
+      <div>
+        <b>Problem-Solving and Critical Thinking</b>: Teaching Data Structures required me to dive deep into problem-solving and critical thinking. By helping students dissect complex problems, develop algorithms, and optimize code, I further honed my problem-solving skills. 
+      </div>
+    ]
+  },
 ];

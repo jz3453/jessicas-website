@@ -1,5 +1,46 @@
 export const semesters = [
   {
+    semester: 'Junior Fall (Fall 2023)',
+    courses: [
+        {
+            'course-name': 'Engineering Software as a Service',
+            'course-number': 'COMS W4152',
+            'professor': 'Junfeng Yang',
+        },
+        {
+            'course-name': 'User Interface Design',
+            'course-number': 'COMS W4170',
+            'professor': 'Brian Smith',
+        },
+        {
+            'course-name': 'Artificial Intelligence',
+            'course-number': 'COMS W4701',
+            'professor': 'Ansaf Salleb-Aouissi',
+        },
+        {
+            'course-name': 'Applied Linear Regression Analysis',
+            'course-number': 'STAT UN2103',
+            'professor': 'Wayne Lee',
+        },
+        {
+            'course-name': 'Slavic Cultures',
+            'course-number': 'SLCL UN3001',
+            'professor': 'Jessica Merrill	',
+        },
+        {
+          'course-name': 'United States 1940-1975',
+          'course-number': 'HIST BC2413',
+          'professor': 'Mark Carnes	',
+      },
+      {
+        'course-name': 'PE: 5K Distance Learning',
+        'course-number': 'PHED UN1001',
+        'professor': 'Aliza Feuerstein	',
+    },
+    ],
+  },
+  {
+      honors: true,
       semester: 'Sophomore Spring (Spring 2023)',
       courses: [
           {
@@ -35,6 +76,7 @@ export const semesters = [
       ],
   },
   {
+      honors: true,
       semester: 'Sophomore Fall (Fall 2022)',
       courses: [
           {
@@ -65,6 +107,7 @@ export const semesters = [
       ],
   },
   {
+      honors: true,
       semester: 'Freshman Spring (Spring 2022)',
       courses: [
           {
@@ -94,7 +137,8 @@ export const semesters = [
           },
       ],
   },
-  {
+  {   
+      honors: true,
       semester: 'Freshman Fall (Fall 2021)',
       courses: [
           {

@@ -28,10 +28,10 @@ function Courses() {
                     <div className='semester-title'>{semester.semester}</div>
                   </AccordionSummary>
                   <AccordionDetails>
-                    <div className='honors'>
+                    {semester.honors && <div className='honors'>
                       Honors: Dean's List
                       <FontAwesomeIcon icon="fa-solid fa-star" size="sm" />
-                    </div>
+                    </div>}
                     <div className='course-list'>
                       {
                         semester.courses.map((course) => {
