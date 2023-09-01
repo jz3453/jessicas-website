@@ -88,6 +88,12 @@ function Navbar() {
                 <span>Courses</span>
               </Link>
             </div>
+            <div className={page === 'experiences' ? 'active-link' : 'nav-text'} onClick={() => closeNavbar('experiences')} >
+              <Link to={'/experiences'}>
+                <FontAwesomeIcon icon="fa-solid fa-folder" size="sm" />
+                <span>Experience</span>
+              </Link>
+            </div>
             <div className={page === 'contact' ? 'active-link' : 'nav-text'} onClick={() => closeNavbar('contact')} >
               <Link to={'/contact'}>
                 <FontAwesomeIcon icon="fa-solid fa-address-book" size="sm" />

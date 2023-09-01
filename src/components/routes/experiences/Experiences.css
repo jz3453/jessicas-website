@@ -1,0 +1,89 @@
+.card {
+  border: 0.5px solid #0000003b;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 350ms;
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+}
+
+.card:hover{
+  box-shadow: 0 0 2px 2px #8180c333;
+}
+
+.card.flip{
+  --rotate-y: 180deg;
+  background-color: #e8e1ff;
+  color: white;
+}
+
+.card .back {
+  transform: rotateY(180deg);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6c6b80;
+  margin-bottom: 0;
+}
+
+.card-title.flip {
+  color: #6c64d1;
+  margin-bottom: 5px;
+}
+
+.card-date {
+  font-size: 12px;
+  font-weight: 400;
+  color: #a2a1c0;
+}
+
+.card-subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  color: #8180c3;
+  margin-bottom: 5px;
+}
+
+.card-list-container {
+  padding: 0 15px 5px 15px;
+}
+
+.card-list {
+  margin: 0;
+  padding: 0;
+}
+
+.card-list-bullet {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c6b80;
+  margin-bottom: 5px;
+}
+
+.card-list-bullet.flip {
+  color: #6c64d1;
+}
+
+
+.card-footer {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6c6b80;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}

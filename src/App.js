@@ -9,6 +9,9 @@ import Navbar from './components/navigation/Navbar';
 import About from './components/routes/about/About';
 import Courses from './components/routes/courses/Courses';
 import Contact from './components/routes/contact/Contact';
+import Experiences from './components/routes/experiences/Experiences';
+
+import './App.css';
 
 export const DisplayContext = React.createContext();
 
@@ -18,12 +21,19 @@ function App() {
   return (
     <div className="App">
       <DisplayContext.Provider value={{ narrowDisplay, setNarrowDisplay }}>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className='container'>
+          <div className='navbar'>
+            <Navbar />
+          </div>
+          <div className='page-all'>
+            <Routes>
+              <Route path="/" element={<About />} />
+              <Route path="/courses" element={<Courses />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/experiences" element={<Experiences />} />
+            </Routes>
+          </div>
+        </div>
       </DisplayContext.Provider>
     </div>
   );

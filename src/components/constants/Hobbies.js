@@ -23,7 +23,7 @@ export const hobbies = [
     {
       id: 2,
       hobby: 'Reading',
-      description: 'My most recent read was The Manhattan Project by Richard Rhodes.',
+      description: 'My most recent read was The Monster\'s Bones: The Discovery of T. Rex and How It Shook Our World by David K Randall.',
       icon: <PiIcons.PiBooks className='icon-size' />,
     },
     {
